@@ -1,0 +1,37 @@
+.input-file {
+	max-width: 400px;
+}
+
+main {
+	height: 80vh;
+}
+
+form {
+	margin-top: 60px;
+	padding: 20px;
+	border: 1px solid #686868;
+	min-width: 40%;
+	max-width: 50%;
+	height: auto;
+	border-radius: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 9px 9px 19px #686868;
+}
+
+@media (max-width: 700px) {
+    form {
+        min-width: 90%;
+        max-width: 95%;
+        padding: 10px;
+        box-shadow: 4px 4px 10px #686868;
+    }
+}
+
+form #id_campanha {
+	font-weight: bold;
+}
+
+form button {
+	margin-top: 8px
+}
